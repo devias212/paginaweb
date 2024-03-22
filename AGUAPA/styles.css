@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+}
+
+/* Estilos para los elementos de lista de la barra de navegación */
+nav ul {
+    list-style-type: none; /* Quita los estilos de lista predeterminados */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Los elementos de lista se muestran en línea */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    padding: 10px 20px; /* Espaciado interno */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el mouse sobre el enlace */
+}
+
+body {
+    background-image: url('Cercle-Zhu.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh; /* Mínimo alto de la página del viewport */
+}
+
+h1 {
+    font-size: 40px; /* Ajusta el tamaño del texto según sea necesario */
+    text-align: center; /* Centra el texto horizontalmente */
+    background-color: white; /* Establece el color de fondo del título */
+    padding: 20px; /* Añade espacio alrededor del texto */
+}
