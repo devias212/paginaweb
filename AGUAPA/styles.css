@@ -1,43 +1,82 @@
-/* styles.css */
+body {
+    background-color: #f8f8f8; /* Cambiar el color de fondo según tu preferencia */
+}
 
 /* Estilos para la barra de navegación */
 nav {
-    background-color: #333; /* Color de fondo */
-    padding: 10px; /* Espaciado interno */
-    font-family: Arial, sans-serif; /* Tipo de fuente */
+    background-color: #333;
+    width: 100%; /* Cubre todo el ancho */
+    padding: 10px 0; /* Ajusta el espaciado */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Estilos para los elementos de lista de la barra de navegación */
 nav ul {
-    list-style-type: none; /* Quita los estilos de lista predeterminados */
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center; /* Centra los elementos */
 }
 
 nav ul li {
-    display: inline; /* Los elementos de lista se muestran en línea */
+    display: inline;
 }
 
 nav ul li a {
-    color: #fff; /* Color del texto */
-    text-decoration: none; /* Quita el subrayado del enlace */
-    padding: 10px 20px; /* Espaciado interno */
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
 }
 
 nav ul li a:hover {
-    background-color: #555; /* Cambia el color de fondo al pasar el mouse sobre el enlace */
+    background-color: #555;
 }
 
-body {
-    background-image: url('Cercle-Zhu.jpg');
-    background-size: cover;
-    background-position: center center;
-    min-height: 100vh; /* Mínimo alto de la página del viewport */
+/* Estilos para la imagen de cover */
+.cover {
+    width: 100%;
+    height: 66.66vh; /* Ocupa un tercio de la página en altura */
+    overflow: hidden; /* Oculta el exceso de imagen */
+    position: relative;
 }
 
-h1 {
-    font-size: 40px; /* Ajusta el tamaño del texto según sea necesario */
-    text-align: center; /* Centra el texto horizontalmente */
-    background-color: white; /* Establece el color de fondo del título */
-    padding: 20px; /* Añade espacio alrededor del texto */
+.cover img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+/* Estilos para el contenido superpuesto */
+.contenido {
+    position: absolute;
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Centra exactamente */
+    text-align: center;
+    color: white;
+}
+
+/* Resto de tus estilos aquí */
+
+.titulo-principal{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Estilos para la página Nosotros */
+.titulo-nosotros {
+    color: blue; /* Cambia el color del título según tu preferencia */
+}
+
+.texto-nosotros {
+    color: green; /* Cambia el color del texto según tu preferencia */
+}
+.fa-solid{
+    display: inline-block;
 }
